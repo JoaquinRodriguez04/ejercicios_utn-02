@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios_utn(02)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/favicon.ico">
+</head>
+<body> 
+<div class="formConverison Badge">
+    <form id="conversionForm">
+        <input type="number" class="input" id="amount" placeholder="monto" step="0.10" required>
+        <select class="select" id="currency">
+            <option value="ars">pesos</option>
+            <option value="usd">dolares</option>
+        </select>
+        <button class="btn" type="submit">Convertir</button>
+    </form>
+    <div id="result"></div>
+</div>
+
+<div class="formConverison Degress">
+    <form id="conversionDegress">
+        <input type="number" class="input" id="Degress" placeholder="grados" required>
+        <select class="select" id="selectDegress">
+            <option value="centígrados">centígrados</option>
+            <option value="fahrenheit">fahrenheit</option>
+        </select>
+        <button class="btn">Convertir</button>
+    </form>
+    <div id="result2"></div>
+</div>
+
+<div class="formSendBox Box">
+    <form id="sendBox">
+        <div class="nameCustomer">
+            <label for="text">nombre del cliente:</label>
+            <input type="text" class="inputBox" id="nameCustomer">
+        </div>
+
+        <div class="materialBox">
+            <label for="text">nombre del cliente:</label>
+            <select class="selectTypeBox" id="selectTypeBox">
+                <option value="madera">madera</option>
+                <option value="carton">carton</option>
+                <option value="plastico">plastico</option>
+                <option value="metal">metal</option>
+                <option value="vidrio">vidrio</option>
+            </select>
+        </div>
+
+        <div class="radioContainer">
+            <label for="radio">seleccione las dimensiones de la caja:</label>
+            <div class="radioBox">
+                <input type="radio" class="radioInput" id="radioInput" name="group">
+                <label for="radio" id="label">pequeña</label>
+            </div>
+            <div class="radioBox">
+                <input type="radio" class="radioInput" id="radioInput" name="group">
+                <label for="radio" id="label">mediana</label>
+            </div>
+            <div class="radioBox">
+                <input type="radio" class="radioInput" id="radioInput" name="group">
+                <label for="radio" id="label">grande</label>
+            </div>
+        </div>
+
+        <div class="commentContainer">
+            <label for="">comentarios:</label>
+            <input type="text" class="inputBox comment" id="comment">
+        </div>
+
+        <div class="sendContainer">
+            <button class="btnSend" id="btnSend">enviar</button>
+            <div class="ShippingInformation" id="containerInfo">
+                 <!-- se agregara la informacion del cliente desde el js -->
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="gameContainer">
+    <form id="formGame">
+        <input type="number" class="inputGame" id="guessNumber" min="0" max="5">
+        <button type="submit" class="btnGame">probar</button>
+    </form>
+    <div class="resultGame" id="resultGame">
+        <!-- se agregaran los resultados desde el js -->
+    </div>
+</div>
+
+<div class="namesContainer">
+    <form id="namesForm">
+        <input type="text" class="inputNames" id="names">
+        <button class="btnNames" id="btnSendNames">cargar</button>
+    </form>
+    <ul class="ul" id="namesList">
+        <!-- se agregaran los nombres desde el js -->
+    </ul>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
