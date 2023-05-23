@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.formConverison{
+    background-color: #222;
+    width: 20%;
+    margin: 2em 2em .1em;
+    padding: 1em;
+}
+
+.Badge{
+    margin: 2em 2em .1em;
+}
+
+.Degress{
+    margin: 1em 2em 0;
+}
+
+.input{
+    background-color: #f9f9ff;
+    padding: .3em .6em;
+    border-radius: 10em;
+    border: 2px solid #111;
+    outline: none;
+    width: 40%;
+}
+
+.input:hover{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+.input:focus{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+.select{
+    background-color: #f9f9ff;
+    padding: .2em;
+    border-radius: 10em;
+    border: 2px solid #111;
+    outline: none;
+}
+
+.select:hover{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+.select:focus{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+.btn{
+    background-color: #f9f9ff;
+    padding: .3em .6em;
+    border-radius: 10em;
+    border: 2px solid #111;
+    outline: none; 
+}
+
+.btn:hover{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+.btn:focus{
+    background-color: #d4d4d4;
+    border: 2px solid #111;
+}
+
+#result{
+    color: #f9f9ff;
+    margin-top: .5em;
+}
+
+#result2{
+    color: #f9f9ff;
+    margin-top: .5em;
+}
+
+/* formSendBox */
+
+.formSendBox{
+    margin: 2em 2em .1em;
+    padding: 1em;
+    background-color: #bddfdf73;
+    width: 30%;
+    border: 2px dashed #222;
+}
+
+/* nameCustomer */
+
+.nameCustomer{
+    margin: .1em 0 .9em;
+}
+
+.materialBox{
+    margin: .9em 0;
+}
+
+.selectTypeBox{
+    background-color: #222;
+    color: #f9f9ff;
+    padding: .1em .6em;
+    border-radius: 10em;
+    outline: none;
+}
+
+.selectTypeBox:hover{
+    background-color: #333;
+}
+
+.selectTypeBox:focus{
+    background-color: #333;
+}
+
+.radioContainer{
+    margin: .9em 0;
+
+}
+
+.commentContainer{
+    margin: .9em 0 ;
+}
+
+.ShippingInformation{
+    margin-top: .5em;
+}
+
+/* sendContainer */
+
+.btnSend{
+    padding: .2em 1.5em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+}
+
+.btnSend:hover{
+    background-color: #333;
+}
+
+/* inputBox */
+.inputBox{
+    width: 20%;
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+}
+
+.comment{
+    width: 50%;
+}
+
+.inputBox:hover{
+    background-color: #333;
+}
+
+.inputBox:focus{
+    background-color: #333;
+}
+
+.gameContainer{
+    margin: 2em 2em .1em;
+    padding: 1em;
+    background-color: #222;
+    width: 15%;
+}
+
+.inputGame{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+    width: 30%;
+}
+
+.inputGame:hover{
+    background-color: #f9f9ff;
+    color: #111;
+}
+
+.btnGame{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+}
+
+.btnGame:hover{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7;
+    background-color: #f9f9ff;
+    color: #222;
+}
+
+.resultGame{
+    margin-top: .6em;
+    color: #f9f9ff;
+}
+
+.namesContainer{
+    margin: 2em 2em .1em;
+    padding: 1em;
+    background-color: #222;
+    width: 15%;
+}
+
+.inputNames{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+    width: 30%;
+}
+
+.inputNames:hover{
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+.inputNames:focus{
+    background-color: #f9f9f9;
+    color: #222;
+}
+
+.btnNames{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #222;
+    color: #f9f9ff;
+}
+
+.btnNames:hover{
+    padding: .1em .6em;
+    outline: none;
+    border-radius: 10em;
+    border: 1px solid #a7a7a7ab;
+    background-color: #f9f9ff;
+    color: #222;
+}
+
+.ul{
+    color: #f9f9ff;
+    list-style: none;
+    margin-top: .6em;
+}
